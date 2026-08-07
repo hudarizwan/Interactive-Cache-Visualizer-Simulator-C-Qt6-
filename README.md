@@ -1,10 +1,10 @@
-# Cache Simulator Lab
+# Cache Simulator 
 
 An interactive, desktop-based simulation tool designed to model and visualize hardware memory cache behaviors. This application simulates the three primary cache mapping styles, implements various block replacement policies, and provides cycle-by-cycle execution statistics. Built with a modular C++ backend and a dynamic Qt6 graphical user interface, it serves as a powerful utility for analyzing memory subsystem performance.
 
 ---
 
-## 🛠️ Key Architectural Components
+##  Key Architectural Components
 
 The project is structured with a highly modular object-oriented design, separating the GUI logic from the cycle-accurate cache state machine:
 
@@ -18,7 +18,7 @@ The project is structured with a highly modular object-oriented design, separati
 
 ---
 
-## 🚀 Supported Configurations
+##  Supported Configurations
 
 | Parameter | Supported Options |
 | :--- | :--- |
@@ -28,7 +28,7 @@ The project is structured with a highly modular object-oriented design, separati
 
 ---
 
-## 📦 Build Requirements
+##  Build Requirements
 
 To build and run the simulator locally, ensure you have:
 - **C++ Compiler**: A compiler supporting C++17 or later (GCC, Clang, or MSVC)
@@ -67,7 +67,7 @@ cmake -S . -B build -DCMAKE_PREFIX_PATH="C:/path/to/Qt/6.x.x/msvc2019_64"
 
 ---
 
-## ⚙️ How to Use
+##  How to Use
 
 1. **Configure the Cache**:
    - Select the Cache Mapping Style.
@@ -85,7 +85,7 @@ cmake -S . -B build -DCMAKE_PREFIX_PATH="C:/path/to/Qt/6.x.x/msvc2019_64"
 
 ---
 
-## 📝 Trace Format
+##  Trace Format
 
 Input traces are parsed line-by-line. Each access must specify a Read/Write transaction type and a hexadecimal memory address:
 
