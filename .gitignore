@@ -1,0 +1,20 @@
+# CMake build directories
+/build/
+
+# Qt Creator settings and files
+/.qtcreator/
+*.user
+*.user.*
+
+# Compiler/Linker outputs
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# System/IDE logs
+*.log
+.DS_Store
+Thumbs.db
